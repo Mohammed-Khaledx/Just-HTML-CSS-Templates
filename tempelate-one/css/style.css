@@ -133,7 +133,7 @@ header .links .items li:not(:last-child) {
 
 /* landing section */
 .landing {
-  background-image: url(image/ningyu-he-tb49PTdW1ZM-unsplash.jpg);
+  background-image: url(../image/ningyu-he-tb49PTdW1ZM-unsplash.jpg);
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
