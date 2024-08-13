@@ -15,7 +15,6 @@
   font-size: 30px;
   padding: 0;
   margin: 0;
-
   position: relative;
   z-index: 100;
 }
@@ -29,7 +28,7 @@
 .main-heading::before {
   content: "";
   position: absolute;
-  left: -20%;
+  left: -10%;
   background-color: var(--main-color);
   border-radius: 50%;
   height: 10px;
@@ -41,7 +40,7 @@
 .main-heading::after {
   content: "";
   position: absolute;
-  right: -20%;
+  right: -10%;
   background-color: var(--main-color);
   border-radius: 50%;
   height: 10px;
@@ -1481,7 +1480,7 @@ section.videos .preview .info {
 
 section.stats {
   position: relative;
-  background-image: url(images/stats.png);
+  background-image: url(images/state.png);
   background-size: cover;
   min-height: 300px;
   /* background-color: green; */
@@ -1619,7 +1618,7 @@ section.discount .shape p {
 }
 
 section.discount .shape img {
-  height: 400px;
+  max-height: 350px;
 }
 
 section.discount .info {
